@@ -30,7 +30,6 @@ Developer @GA in NYC
 .clear {
   clear: both;
 }
-
 .alignright {
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
@@ -49,11 +48,9 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family:'Open Sans', sans-serif;
+     
 }
-
 
 /******************************************
 /* LAYOUT
@@ -67,13 +64,170 @@ body {
 
 }
 
-header {
+.hero{
+
+      background: url(../images/header_bg.jpg) no-repeat center center rgb(134,141,157);
+      background-size: cover;
+      padding:30px 30px 200px 30px;
+      margin-right: 150px;
+      margin-left: 150px;
 
 }
 
-footer {
+.hero .btn {
+  background-color:yellow;
+  color:black;
+  font-size: 20px;
+  padding-left:10px;
+  padding-right: 10px;
+  margin-left:400px;
+  margin-top:20px;
+  font-weight:600;
+}
+.hero code{
+  color:black;
+}
+
+.btn {
+  display: inline-block;
+  padding-left:50px;
+}
+.hero h1{
+  color:white;
+  font-size:35px;
+  padding-left: 40px;
+  font-weight: 800;
+}
+
+.hero h3{
+  text-align:center;
+  font-size:24px;
+  padding:35px 30px;
+  color:white;
+}
+.time{
+  background-color: #eee;
+  padding:50px 0px 10px 200px;
+  margin-right:150px;
+  margin-left: 150px
+}
+.time h1{
+  font-weight:600;
+  font-size:30px;
+}
+.time ul{
+  text-align:left;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.time li{
+  padding-bottom: 10px;
+  font-size:16px;
+  font-weight:300;
 
 }
+.time p{
+  font-weight:300;
+  margin-left: 45px;
+  font-size:16px;
+  margin-right:70px;
+}
+.time h1{
+  font-size:20px;
+  margin-left:45px;
+  padding-bottom: 10px;
+
+}
+
+#testimonial{
+  background: url(../images/testimonial_bg.jpg) no-repeat center center rgb(134,141,157);
+      background-size: cover;
+      padding:30px 30px 30px 30px;
+      border:1px solid black;
+      margin-right: 150px;
+      margin-left: 150px;
+
+}
+#testimonial p{
+  color:white;
+  font-size:18px;
+  text-align:center;
+  padding: 50px 40px;
+  line-height:2;
+  font-style:italic;
+  
+}
+
+#testimonial h1{
+  color:white;
+  font-size:20px;
+  text-align:center;
+  padding: 10px 10px;
+  font-weight:600;
+
+}
+.signup {
+  background-color:yellow;
+  height:30px;
+  padding-top: 40px;
+  padding-bottom:50px;
+  text-align:center;
+  margin-right: 150px;
+  margin-left: 150px;
+
+}
+.signup code{
+  background-color:blue;
+  font-size:18px;
+  color:white;
+  padding-top:10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-weight:600;
+
+}
+.signup a{
+  color:white;
+}
+
+.logo{
+  background-color: black;
+  padding:50px;
+  text-align:center;
+  margin-right: 150px;
+  margin-left: 150px
+
+}
+.logo h1{
+  color:yellow;
+  padding:50px;
+  font-size:30px;
+  font-weight:600;
+}
+
+
+.logo .twt{
+  float:left;
+  padding-left:380px;
+  padding-right: 20px
+}
+.logo .fb{
+  padding-right: 360px;
+}
+
+.logo p{
+  color:white;
+  font-size:12px;
+  padding:20px;
+
+
+}
+
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
